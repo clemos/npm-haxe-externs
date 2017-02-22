@@ -1,6 +1,6 @@
 {
     "name": "npm-haxe",
-    "classPath": "hx",
+    "classPath": "src",
     "dependencies": {
         "hxnodejs":""
     }
