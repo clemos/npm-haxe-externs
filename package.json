@@ -1,0 +1,15 @@
+{
+  "name": "npm-haxe-externs",
+  "version": "0.0.1",
+  "description": "Haxe NPM package externs",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "haxelib install --always all",
+    "test": "haxe test.hxml"
+  },
+  "author": "Clément Charmet <cl3mos@gmail.com> (http://github.com/clemos)",
+  "license": "ISC",
+  "devDependencies": {
+    "haxe": "github:clemos/npm-haxe"
+  }
+}
